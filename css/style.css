@@ -51,12 +51,12 @@ body .container-dc {
 }
 
 .dc-header .fs-1 {
-  font-size: calc(1rem + 7vw) !important;
-  max-width: fit-content;
+  font-size: calc(1rem + 6vw) !important;
+  width: fit-content;
 }
 .dc-header .fs-2 {
-  font-size: calc(1rem + 3vw) !important;
-  max-width: fit-content;
+  font-size: calc(1rem + 2.5vw) !important;
+  width: fit-content;
 }
 
 .dc-header h1 {
