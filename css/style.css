@@ -10,6 +10,7 @@ body {
   margin-right: 1em;
 }
 .navbar-nav-dc-items .nav-link:hover {
+  background-color: #d00;
   color: #fff;
   text-decoration: none;
 }
@@ -19,6 +20,11 @@ body {
 }
 .navbar-nav-dc-links li {
   margin-left: 1em;
+}
+navbar-nav-dc-links .dc-icon {
+  height: 30px;
+  object-fit: cover;
+  width: 30px;
 }
 
 body .container-dc {
@@ -38,6 +44,15 @@ body .container-dc {
   z-index: -999;
 }
 
+.dc-email {
+  color: #fff;
+  background-color: #f00;
+  padding: 0.2em;
+}
+.dc-email:hover {
+  background-color: #d00;
+}
+
 .dc-header {
   background-image: url("img/website-header-02.jpeg");
   background-size: cover;
@@ -49,7 +64,6 @@ body .container-dc {
 .dc-header-buy {
   padding-top: 1em;
 }
-
 .dc-header .fs-1 {
   font-size: calc(1rem + 6vw) !important;
   width: fit-content;
@@ -58,7 +72,6 @@ body .container-dc {
   font-size: calc(1rem + 2.5vw) !important;
   width: fit-content;
 }
-
 .dc-header h1 {
   background-color: rgba(255, 255, 255, 0.9);
   color: #000;
