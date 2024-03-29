@@ -64,6 +64,10 @@ body .container-dc {
   z-index: -999;
 }
 
+.dc-bio-text {
+  text-align: justify;
+}
+
 .dc-email {
   color: #fff;
   background-color: #f00;
@@ -124,7 +128,7 @@ body .container-dc {
 .dc-logo-nom {
   background-color: rgba(30, 30, 30, 0.7);
   padding: 1em;
-  min-width: 400px;
+  min-width: 350px;
   width: 70%;
 }
 
