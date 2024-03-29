@@ -30,12 +30,15 @@
          src="/img/website-background-01.jpeg"
          alt="Image de fond du site">
 
-    <nav class="navbar navbar-expand-lg dc-navbar">
+    <nav class="navbar navbar-expand-lg dc-navbar sticky-top">
       <div class="container container-dc">
         <a class="navbar-brand" href="/">
           <img src="/img/dirtcircle-logo-200x200.png" alt="Dirt Circle Logo"
             width="40">
         </a>
+        <div class="navbar-toggler navbar-dc-title">
+          DIRT CIRCLE
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -84,11 +87,13 @@
       </div>
     </nav>
 
-    <div id="header" class="container-fluid">
+    <div id="header" class="container-fluid scroll-margin">
       <div class="row dc-header text-center">
         <div class="col">
-          <h1 class="fs-1">Dirt Circle</h1>
-          <h2 class="fs-2">Dirt Live Sessions</h2>
+          <h1 class="visually-hidden">Dirt Circle</h1>
+          <img class="dc-logo-nom"
+               alt="Cover of Dirt Live Sessions EP"
+               src="/img/dirtcircle-logo-nom.png">
           <p class="dc-header-buy">
             <a class="btn btn-outline-light btn-lg"
                href="https://dirtcircleband.bandcamp.com/album/dirt-live-sessions">Acheter / Ecouter</a>
@@ -97,7 +102,7 @@
       </div>
     </div>
 
-    <div id="bio" class="container container-dc">
+    <div id="bio" class="container container-dc scroll-margin">
       <div class="row text-center dc-title">
         <h2>BIO</h2>
       </div>
@@ -139,7 +144,7 @@
       </div>
     </div>
 
-    <div id="videos" class="container container-dc">
+    <div id="videos" class="container container-dc scroll-margin">
       <div class="row text-center dc-title">
         <h2>VIDEOS</h2>
       </div>
@@ -165,7 +170,7 @@
       </div>
     </div>
 
-    <div id="music" class="container container-dc">
+    <div id="music" class="container container-dc scroll-margin">
       <div class="row text-center dc-title">
         <h2>MUSIC</h2>
       </div>
