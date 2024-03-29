@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Monda&display=swap');
 
 body {
   background-color: #000;
   color: #fff;
 }
 
+.navbar-dc-title {
+  border: 0;
+  color: #fff;
+  font-size: 1.5em;
+}
 .navbar-nav-dc-items .nav-link {
   color: #fff;
+  font-family: Monda;
   margin-right: 1em;
 }
 .navbar-nav-dc-items .nav-link:hover {
@@ -21,10 +27,24 @@ body {
 .navbar-nav-dc-links li {
   margin-left: 1em;
 }
-navbar-nav-dc-links .dc-icon {
+.navbar-nav-dc-links .dc-icon {
   height: 30px;
   object-fit: cover;
   width: 30px;
+}
+
+.show .navbar-nav-dc-links {
+  display: block;
+  margin-left: -5px;
+  margin-top: 10px;
+}
+.show .navbar-nav-dc-links li {
+  float: left;
+  width: 30px;
+}
+.show .navbar-nav-dc-links .dc-icon {
+  display: inline;
+  margin-bottom: 0.5em;
 }
 
 body .container-dc {
@@ -58,11 +78,17 @@ body .container-dc {
   background-size: cover;
   border-bottom: 0.2em #f00 solid;
   margin-bottom: 1em;
-  padding-bottom: 7em;
-  padding-top: 7em;
+  padding-bottom: 3em;
+  padding-top: 5em;
 }
 .dc-header-buy {
   padding-top: 1em;
+}
+.dc-header-buy .btn-outline-light {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dc-header-buy .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .dc-header .fs-1 {
   font-size: calc(1rem + 6vw) !important;
@@ -95,11 +121,19 @@ body .container-dc {
   padding: 0.2em;
 }
 
+.dc-logo-nom {
+  background-color: rgba(30, 30, 30, 0.7);
+  padding: 1em;
+  min-width: 400px;
+  width: 70%;
+}
+
 .dc-navbar {
   background-color: #f00;
 }
 
 .dc-title {
+  font-family: Monda;
   margin-bottom: 1em;
   padding-top: 2em;
 }
@@ -127,4 +161,8 @@ body .container-dc {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+.scroll-margin {
+  scroll-margin-top: 5rem;
 }
