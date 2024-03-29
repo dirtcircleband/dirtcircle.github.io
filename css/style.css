@@ -64,6 +64,10 @@ body .container-dc {
   z-index: -999;
 }
 
+.dc-bio-text {
+  text-align: justify;
+}
+
 .dc-email {
   color: #fff;
   background-color: #f00;
